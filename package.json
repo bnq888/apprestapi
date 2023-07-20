@@ -1,0 +1,24 @@
+{
+  "name": "02_nodejs",
+  "version": "1.0.0",
+  "description": "apprestapi",
+  "main": "index.js",
+  "scripts": {
+    "test": "https://github.com/bnq888/apprestapi.git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bnq888/apprestapi.git"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "nodejs"
+  ],
+  "author": "bnqbnq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bnq888/apprestapi/issues"
+  },
+  "homepage": "https://github.com/bnq888/apprestapi#readme"
+}
