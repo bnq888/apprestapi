@@ -5,4 +5,10 @@ module.exports = function(app){
 
       app.route('/')
             .get(jsonku.index);
+
+      app.route('/tampiljurnal')
+            .get(jsonku.tampilsemuajurnal);
+
+      app.route('/jurnalsource/:source')
+            .get(jsonku.jurnalsource);            
 }
