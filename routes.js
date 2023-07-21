@@ -10,5 +10,8 @@ module.exports = function(app){
             .get(jsonku.tampilsemuajurnal);
 
       app.route('/jurnalsource/:source')
-            .get(jsonku.jurnalsource);            
+            .get(jsonku.jurnalsource);           
+            
+      app.route('/addkd_source')
+            .post(jsonku.addkd_source);                
 }

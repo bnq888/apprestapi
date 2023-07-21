@@ -33,3 +33,19 @@ exports.jurnalsource = function (req, res) {
                   }
             });
 };
+
+
+// menambah kode_source
+exports.addkd_source = function (req, res) {
+      var kode = req.body.kode;
+      var nama = req.body.nama;
+
+      connection.query('insert into gl_kd_source (kode, nama) VALUES (?,?)', [kode,nama],
+            function (error, rows, fields){
+                  if(error){
+                        console.log(error);
+                  }else{
+                        response.ok('Berhasil tambah kode source', res);
+                  }
+            });     
+};
